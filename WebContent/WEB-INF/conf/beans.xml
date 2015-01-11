@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     	xmlns:cxf="http://cxf.apache.org/core"
+		xmlns:jaxws="http://cxf.apache.org/jaxws"
+		xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+		xmlns:drools="http://drools.org/schema/drools-spring"
+		xsi:schemaLocation="
+			http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd
+			http://www.springframework.org/schema/beans 
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+			http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+	
+    
+    
+  	<bean id="impexPropsFile" class="org.springframework.jndi.JndiObjectFactoryBean">
+    	<property name="jndiName" value="java:comp/env/impex.properties.file"/>
+	</bean>
+	 		
+	 <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+    	<property name="jndiName" value="java:comp/env/jdbc/slDB"/>
+	</bean>
+	<!-- 
+	<bean id="aesKeyFile" class="org.springframework.jndi.JndiObjectFactoryBean">
+    	<property name="jndiName" value="java:comp/env/aes.key.file"/>
+	</bean>
+ -->
+	<!-- 
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    	<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+    	<property name="url" value="jdbc:mysql://localhost:3306/pim_schema"/>
+    	<property name="username" value="root"/>
+    	<property name="password" value="root"/>
+	</bean>
+	-->
+<!-- 
+	<bean id="productDAO" class="com.sl.data.dao.impl.ProductDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+-->
+
+		
+	<bean id="daoManager" class="com.sl.data.utils.DAOManager">
+		
+	</bean>
+	
+	<bean id="applicationContext" class="com.sl.utils.ApplicationContextUtil"></bean>
+
+
+</beans>
