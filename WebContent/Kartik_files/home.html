@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html xml:lang="en-gb" xmlns="http://www.w3.org/1999/xhtml" lang="en-gb">
+<head>
+
+<meta charset="ISO-8859-1">
+  <title>ShopLazy : The Ultimate Shopping Destination</title>
+  
+	<link
+	href="E:\\WorkSpace\ShopLazy\WebContent/	home.css"
+	media="all" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	
+	<style type="text/css" >
+	html,  iframe { margin:0; padding:0; height:2668px; }
+	
+		body {
+		 margin:0; padding:0;
+    background-color: #ffffff;
+    color: #85859c;
+    font-family: Ubuntu,sans-serif;
+    font-size: 10px;
+    height: 100%;
+    
+}
+	.wrapx {
+	 border:  none ; 
+	 width : 1100px; 
+	 margin-left: auto;
+	  margin-right: auto;   
+	   padding-top: 0px;
+	    margin-top:0px}
+	    
+	.logo {
+    float: left;
+    height: 46px;
+    padding-left:40px;}	
+	#search_box {
+   
+    float: left;
+    overflow: hidden;
+    padding-left: 22px;
+    padding-top: 47px;
+    text-align: left;
+    
+    word-spacing: -1px;
+    
+    
+   
+}
+#page_header {
+    background: url("header_background.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    height: 100px;
+    overflow: hidden;
+    position: fixed;
+   padding-top: 0px;
+    width : inherit;
+}
+
+
+#text_box
+{
+    height: 22px;
+    font-size:14pt;
+     color : #8a8a8a;
+     font-style: italic;
+     font-family: Ubuntu;
+     border: 3px solid #27EEC7;
+}
+				
+#search_box input.button {
+    background-color: transparent;
+    float: right;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 0;
+    padding: 0;
+    width: 32px;}
+    
+		
+	#page_headerlinks {
+    float: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: left;
+    width: 275px;
+    height : 60px;
+    word-spacing: -1px;
+}
+#cart{
+ float: right;
+ clear:right}
+ #account
+ {
+  float: right;
+  padding-right: 10px;
+ }
+ 
+ #menu_bar {
+   background-color : #6EC9B7;
+    color: #fff;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 1px;
+     position: fixed;
+      top: 100px;
+      width: inherit;
+       font-weight: bolder;
+	 color: #000000;
+}
+#menu_bar ul {
+  
+    list-style-type: none;
+    overflow: hidden;
+    width: 780px;
+        font-weight:bolder;
+}
+#menu_bar li {
+	    background-color : #6EC9B7;
+	    float: left;
+	    font-size: 20px;
+	    font-weight:bolder;
+	 font-style: bold;
+	    height: 30px;
+	    margin-right: 1px;
+	    overflow: hidden;
+	    text-align: center;
+	     color: #000000;
+	    width: 170px;}
+#header_li{
+	text-decoration: none;
+	 font-weight:bolder;
+	float:center;
+	 vertical-align: middle;
+	 float: left;
+	 clear: left;
+	 padding-left: 80px;
+	  padding-right: 20px;
+	     color: #000000;
+	    }
+
+
+#header_li_first{
+	text-decoration: none;
+	 font-weight:bolder;
+	float:center;
+	 vertical-align: middle;
+	 float: left;
+	 clear: left;
+	 padding-left: 60px;
+	  padding-right: 20px;
+	     color: #000000;
+	     
+	 }
+	 
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#page_body {
+  	padding-top: 140px;
+    margin: 27px 0 0;
+      float: left;
+}
+
+#sidemenu{
+width : 22%;}
+#side_menu ul {
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    font-weight:bolder;
+	
+}
+}
+	</style>
+	
+</head>
+<body>
+	<div class = "wrapx">   <!-- wraps the whole page, use for adjusting % of page space used !-->
+		<div id = "page_header"> 
+			<div class = "logo">
+			 <img src= "logo.png" width = "280" height = "97"	/>
+			</div>
+			
+				<div id ="search_box">
+				
+				<form method="get" action="http://w3layouts.com/">
+					
+					<input  id = "text_box" type="text" onblur="if (this.value == '') {this.value = 'Search Products,Stores..';}" onfocus="this.value = '';" value="Search Products,Stores.." name="s" size="30">
+					<input type="image" class="button" src = "Search_3_blue.png"  >
+				</form>
+		</div>
+	<div id="page_headerlinks">
+		
+			<div>
+			 <img id = "cart" src= "cart_small.png" width = "60" height = "50"/>
+			</div>
+			<div>
+			<img id = "account"src= "account.png" width = "60" height = "50"/>
+			</div>
+		
+	</div>
+	</div> <!-- header ends -->
+	<div id = "menu_bar"> 
+		<ul>
+			<li>
+			<a href="link" id = "header_li_first" >Categories</a>
+			</li>
+			<li>
+			<a href="link" id = "header_li" >Stores</a>
+			</li>
+			<li>
+			<a href="link" id = "header_li">Products</a>
+			</li>
+			<li>
+			<a href="link" id = "header_li">Offers</a>
+			</li>
+			
+		</ul>
+	
+	</div> <!-- Menu Bar Ends here -->
+	
+	<div id="page_body">
+
+		<div id = "side_menu">
+			<ul >
+				<li class = "side_menu_item">
+					<a id ="dropdown-toggle" data-toggle="dropdown" href = "electronics.htm">
+					Electronics</a>
+				</li>
+				<li class = "side_menu_item">
+					<a id ="dropdown-toggle" data-toggle="dropdown" href = "groceries.htm">
+					Groceries</a>
+				</li>
+				<li class = "side_menu_item">
+					<a id ="dropdown-toggle" data-toggle="dropdown" href = "gifts.htm">
+					Gifts</a>
+				</li>
+					
+				
+			</ul>
+	</div>
+	</div>
+	
+</div>
+</body>
+</html>
