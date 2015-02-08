@@ -10,7 +10,9 @@
 	media="all" rel="stylesheet" type="text/css">
 	
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	<link href="//fonts.googleapis.com/css?family=Sanchez:400normal,400italic|Open+Sans:400normal|Arvo:400normal|Oswald:400normal|Lato:400normal|Raleway:400normal|Droid+Sans:400normal|Pacifico:400normal|PT+Serif:400normal|Playfair+Display:400normal|Abril+Fatface:400normal&amp;subset=all" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="file:///E:/ShopLazy/WebContent/js/jquery-1.10.2.js"></script>
+	<link href="//fonts.googleapis.com/css?family=Marcellus+SC:400normal|Oswald:400normal|Roboto:400normal|Open+Sans:400normal|Open+Sans+Condensed:300normal|Kaushan+Script:400normal|Josefin+Slab:400normal|Open+Sans:400normal|Droid+Serif:400normal|Pacifico:400normal|Marcellus:400normal&amp;subset=all" rel="stylesheet" type="text/css">
 	<style type="text/css" >
 	html,  iframe { margin:0; padding:0; height:2668px; }
 	
@@ -18,7 +20,7 @@
 		 margin:0; padding:0;
     background-color: #ffffff;
     color: #85859c;
-    font-family: Ubuntu,sans-serif;
+    font-family: Marcellus SC;
     font-size: 10px;
     height: 100%;
     
@@ -98,15 +100,15 @@
  }
  
  #menu_bar {
-   background-color : #6EC9B7;
-    color: #fff;
+   background-color : #002128;
+    color: #ffffff;
     height: 40px;
     overflow: hidden;
     margin-bottom: 1px;
      position: fixed;
       top: 100px;
       width: inherit;
-       font-weight: bolder;
+      
 	 color: #000000;
 }
 #menu_bar ul {
@@ -114,43 +116,43 @@
     list-style-type: none;
     overflow: hidden;
     width: 780px;
-        font-weight:bolder;
+       
 }
 #menu_bar li {
-	    background-color : #6EC9B7;
+	    background-color : #002128;
 	    float: left;
 	    font-size: 20px;
-	    font-weight:bolder;
+	  
 	 font-style: bold;
 	    height: 30px;
 	    margin-right: 1px;
 	    overflow: hidden;
 	    text-align: center;
-	     color: #000000;
+	     color: #ffffff;
 	    width: 170px;}
 #header_li{
 	text-decoration: none;
-	 font-weight:bolder;
+
 	float:center;
 	 vertical-align: middle;
 	 float: left;
 	 clear: left;
 	 padding-left: 80px;
 	  padding-right: 20px;
-	     color: #000000;
+	     color: #ffffff;
 	    }
 
 
 #header_li_first{
 	text-decoration: none;
-	 font-weight:bolder;
+	
 	float:center;
 	 vertical-align: middle;
 	 float: left;
 	 clear: left;
 	 padding-left: 60px;
 	  padding-right: 20px;
-	     color: #000000;
+	     color: #ffffff;
 	     
 	 }
 	 
@@ -185,7 +187,7 @@
 	  border: 2px solid #000000;
 	  height :28px;
 	  font-size: 20px;
-	    font-weight:bolder;
+	  
 	 font-style: bold;
 	    text-decoration: none;
 	    padding-top:10px;
@@ -198,12 +200,12 @@
     padding: 0;
     list-style-type: none;
     overflow: hidden;
-    font-weight:bolder;}
+  }
    
    #side_menu li {
 	    background-color : #6EC9B7;
 	    font-size: 20px;
-	    font-weight:bolder;
+	  
 	 font-style: bold;
 	    height: 40px;
 	    width :100;
@@ -239,7 +241,7 @@ float:right;"}
 	  border: 2px solid #000000;
 	  height :28px;
 	  font-size: 20px;
-	    font-weight:bolder;
+
 	 font-style: bold;
 	    text-decoration: none;
 	    padding-top:10px;
@@ -252,14 +254,14 @@ float:right;"}
 	  border: 2px solid #000000;
 	  height :28px;
 	  font-size: 20px;
-	    font-weight:bolder;
+
 	 font-style: bold;
 	    text-decoration: none;
 	    padding-top:10px;
 	     border-bottom: none;
 	     text-align: center;
 	     overflow:visible;}
-#first_element_nav,  #second_element_nav
+  #second_element_nav
 {
 overflow:visible;
  border-style: solid;
@@ -268,10 +270,22 @@ overflow:visible;
     display: none;
     position: absolute;
     left :325px;
-   
-
+  
   width:600px;
   height:300px;}
+    #first_element_nav
+{
+overflow:visible;
+ border-style: solid;
+    border-width: 3px 1px 1px;
+    color: #424240;
+    display: none;
+    position: absolute;
+    left :325px;
+  
+  width:600px;
+  height:300px;}
+ 
   #first_element_nav{
     background-image: url("electronics.png");
      top:140px;
@@ -334,12 +348,12 @@ overflow:visible;
 		
 				<li>
 					<div >
-					<div id ="first_element" >
+					<div id ="first_element"   class="left_nav" >
 					<a class = "side_menu_anchors"  href = "electronics.htm">Electronics</a>
 					<div class = "side_menu_arrow">
 						<img src = 	"arrow.png" width = "30" height = "28"> </img>
 					</div>
-					<div id="first_element_nav">
+					<div id="first_element_nav" class="left_nav_data">
 					
 						<ul>
 						<li>phones</li>
@@ -351,12 +365,12 @@ overflow:visible;
 					</div>
 				</li>
 				<li>
-				<div id	 = "second_element" >
+				<div id	 = "second_element" class="left_nav" >
 					<a class = "side_menu_anchors"  href = "groceries.htm"> Groceries</a>
 						<div class = "side_menu_arrow">
 						<img src = 	"arrow.png" width = "30" height = "28"> </img>
 						</div>
-							<div id="second_element_nav">
+							<div id="second_element_nav"  class="left_nav_data">
 					
 						<ul>
 						<li>phones</li>
@@ -396,54 +410,30 @@ overflow:visible;
 
 		
 		$(document).ready(function(){
-			 $("#inner_element").hide();
-			 $("#second_menu_nav").hide();
-			 var debounce1;
-			 var debounce2;
+		//	 $("#inner_element").hide();
+		//	 $("#second_menu_nav").hide();
+			 var debounce;
 	
-			 /////////////////////
-		
-		$("#first_element").mouseenter(function(){
-			
-		    $("#first_element_nav").slideDown("slow");
-		    clearTimeout(debounce1);
+	
+
+		$(".left_nav").mouseenter(function(){
+			$(".left_nav_data").hide();
+		    $(this).find(".left_nav_data").slideDown("slow");
+		    clearTimeout(debounce);
 		});
 
-		$("#first_element").mouseleave (function() {
-		    debounce1 = setTimeout(closeMenu1,400);
+		$(".left_nav").mouseleave (function() {
+		    debounce = setTimeout(closeMenu,400);
 		});
 
 		
-		var closeMenu1 = function(){
-		    $("#first_element_nav").slideUp("fast");
-		    clearTimeout(debounce1);}
+		var closeMenu = function(){
+		    $(".left_nav_data").slideUp("fast");
+		    clearTimeout(debounce);}
 		
-		
-		$("#second_element").mouseenter(function(){
-			
-		    $("#second_element_nav").slideDown("slow");
-		    clearTimeout(debounce2);
-		});
 
-		$("#second_element").mouseleave (function() {
-		    debounce = setTimeout(closeMenu2,400);
-		});
-		
-		var closeMenu2 = function(){
-		    $("#second_element_nav").slideUp("fast");
-		    clearTimeout(debounce2);}
 		
 		});
 	
 </script>
 </html>
-
-			$("#first_element").mouseenter(function(){
-			    $("#categories").show();
-			   
-			});
-
-			$("#first_element").mouseleave (function() {
-				 $("#categories").hide();
-			});
-
