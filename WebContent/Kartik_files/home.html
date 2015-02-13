@@ -9,10 +9,12 @@
 	href="E:\\WorkSpace\ShopLazy\WebContent/	home.css"
 	media="all" rel="stylesheet" type="text/css">
 	
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-	<link href="http://fonts.googleapis.com/css?family=Sanchez" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nobile:400,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="file:///E:/ShopLazy/WebContent/js/jquery-1.10.2.js"></script>
-	<link href="//fonts.googleapis.com/css?family=Marcellus+SC:400normal|Oswald:400normal|Roboto:400normal|Open+Sans:400normal|Open+Sans+Condensed:300normal|Kaushan+Script:400normal|Josefin+Slab:400normal|Open+Sans:400normal|Droid+Serif:400normal|Pacifico:400normal|Marcellus:400normal&amp;subset=all" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<style type="text/css" >
 	html,  iframe { margin:0; padding:0; height:2668px; }
 	
@@ -20,7 +22,7 @@
 		 margin:0; padding:0;
     background-color: #ffffff;
     color: #85859c;
-    font-family: Marcellus SC;
+    font-family: Roboto;
     font-size: 10px;
     height: 100%;
     
@@ -67,7 +69,7 @@
     font-size:14pt;
      color : #8a8a8a;
      font-style: italic;
-     font-family: Ubuntu;
+     font-family: Roboto;
      border: 3px solid #27EEC7;
 }
 				
@@ -235,7 +237,7 @@
 float:right;"}
 
 }
-  #first_element
+  .left_nav
 	    {background-color : #6EC9B7;
 	  width :196px;
 	  border: 2px solid #000000;
@@ -248,43 +250,20 @@ float:right;"}
 	     border-bottom: none;
 	     text-align: center;
 	     overflow:visible;}
-	  #second_element
-	    {background-color : #6EC9B7;
-	  width :196px;
-	  border: 2px solid #000000;
-	  height :28px;
-	  font-size: 20px;
+	 
 
-	 font-style: bold;
-	    text-decoration: none;
-	    padding-top:10px;
-	     border-bottom: none;
-	     text-align: center;
-	     overflow:visible;}
-  #second_element_nav
+  #first_element_nav, #second_element_nav,#third_element_nav, #fourth_element_nav,#fifth_element_nav,#sixth_element_nav,#seventh_element_nav
 {
-overflow:visible;
- border-style: solid;
+	overflow:visible;
+ 	border-style: solid;
     border-width: 3px 1px 1px;
     color: #424240;
     display: none;
     position: absolute;
     left :325px;
-  
-  width:600px;
-  height:300px;}
-    #first_element_nav
-{
-overflow:visible;
- border-style: solid;
-    border-width: 3px 1px 1px;
-    color: #424240;
-    display: none;
-    position: absolute;
-    left :325px;
-  
-  width:600px;
-  height:300px;}
+  	width:600px;
+  	height:300px;}
+   
  
   #first_element_nav{
     background-image: url("electronics.png");
@@ -293,8 +272,23 @@ overflow:visible;
      #second_element_nav
  {  background-image: url("groceries.png");
  top:180px;}
-	</style>
-	
+ #third_element_nav
+ {  background-image: url("groceries.png");
+ top:220px;}
+ #fourth_element_nav
+ {  background-image: url("groceries.png");
+ top:260px;}
+ #fifth_element_nav
+ {  background-image: url("groceries.png");
+ top:300px;}
+  #sixth_element_nav
+ {  background-image: url("groceries.png");
+ top:340px;}
+	#seventh_element_nav
+	{  background-image: url("groceries.png");
+ top:380px;}
+ 
+ 	</style>
 </head>
 <body>
 	<div class = "wrapx">   <!-- wraps the whole page, use for adjusting % of page space used !-->
@@ -347,11 +341,10 @@ overflow:visible;
 			<ul >
 		
 				<li>
-					<div >
-					<div id ="first_element"   class="left_nav" >
+					<div   class="left_nav" >
 					<a class = "side_menu_anchors"  href = "electronics.htm">Electronics</a>
 					<div class = "side_menu_arrow">
-						<img src = 	"arrow.png" width = "30" height = "28"> </img>
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
 					</div>
 					<div id="first_element_nav" class="left_nav_data">
 					
@@ -362,13 +355,13 @@ overflow:visible;
 					
 					</div>
 					</div>
-					</div>
+					
 				</li>
 				<li>
-				<div id	 = "second_element" class="left_nav" >
+				<div class="left_nav" >
 					<a class = "side_menu_anchors"  href = "groceries.htm"> Groceries</a>
 						<div class = "side_menu_arrow">
-						<img src = 	"arrow.png" width = "30" height = "28"> </img>
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
 						</div>
 							<div id="second_element_nav"  class="left_nav_data">
 					
@@ -381,13 +374,14 @@ overflow:visible;
 					</div>
 					
 				</li>
+				
 				<li>
-				<div id	 = "third_element" >
-					<a class = "side_menu_anchors"  href = "groceries.htm"> Groceries</a>
+				<div class="left_nav" >
+					<a class = "side_menu_anchors"  href = "groceries.htm">Shoes</a>
 						<div class = "side_menu_arrow">
-						<img src = 	"arrow.png" width = "30" height = "28"> </img>
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
 						</div>
-							<div id="third_element_nav">
+							<div id="third_element_nav"  class="left_nav_data">
 					
 						<ul>
 						<li>phones</li>
@@ -398,8 +392,74 @@ overflow:visible;
 					</div>
 					
 				</li>
+				<li>
+				<div class="left_nav" >
+					<a class = "side_menu_anchors"  href = "groceries.htm">Phones & Tablets</a>
+						<div class = "side_menu_arrow">
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
+						</div>
+							<div id="fourth_element_nav"  class="left_nav_data">
 					
-				
+						<ul>
+						<li>phones</li>
+						<li>TVS</li>
+						</ul>
+					
+					</div>
+					</div>
+					
+				</li>
+				<li>
+				<div class="left_nav" >
+					<a class = "side_menu_anchors"  href = "groceries.htm">Gifts & Toys</a>
+						<div class = "side_menu_arrow">
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
+						</div>
+							<div id="fifth_element_nav"  class="left_nav_data">
+					
+						<ul>
+						<li>phones</li>
+						<li>TVS</li>
+						</ul>
+					
+					</div>
+					</div>
+					
+				</li>
+				<li>
+				<div class="left_nav" >
+					<a class = "side_menu_anchors"  href = "groceries.htm">Fashion</a>
+						<div class = "side_menu_arrow">
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
+						</div>
+							<div id="sixth_element_nav"  class="left_nav_data">
+					
+						<ul>
+						<li>phones</li>
+						<li>TVS</li>
+						</ul>
+					
+					</div>
+					</div>
+					
+				</li>
+					<li>
+				<div class="left_nav" >
+					<a class = "side_menu_anchors"  href = "groceries.htm">Furniture</a>
+						<div class = "side_menu_arrow">
+						<img class="arrow_image" src = 	"arrow.png" width = "30" height = "28"> </img>
+						</div>
+							<div id="seventh_element_nav"  class="left_nav_data">
+					
+						<ul>
+						<li>phones</li>
+						<li>TVS</li>
+						</ul>
+					
+					</div>
+					</div>
+					
+				</li>
 			</ul>
 	</div>
 	</div>
@@ -410,30 +470,30 @@ overflow:visible;
 
 		
 		$(document).ready(function(){
-		//	 $("#inner_element").hide();
-		//	 $("#second_menu_nav").hide();
 			 var debounce;
 	
 	
 
 		$(".left_nav").mouseenter(function(){
 			$(".left_nav_data").hide();
+			$(this).find(".arrow_image").attr('src','arrow_dark.png');
 		    $(this).find(".left_nav_data").slideDown("slow");
-		    clearTimeout(debounce);
+		    $(this).css("background-color" ,"#002128");
+		    $(this).find(".side_menu_anchors").css("color" ,"#ffffff");
+		    
 		});
-
+		
 		$(".left_nav").mouseleave (function() {
-		    debounce = setTimeout(closeMenu,400);
+			$(".left_nav_data").slideUp("fast");
+		    $(this).css("background-color" ,"#6EC9B7");
+		    $(this).find(".arrow_image").attr('src','arrow.png');
+		    $(this).find(".side_menu_anchors").css("color" ,"#000000");
 		});
 
-		
-		var closeMenu = function(){
-		    $(".left_nav_data").slideUp("fast");
-		    clearTimeout(debounce);}
-		
 
 		
 		});
 	
 </script>
 </html>
+	   
