@@ -21,7 +21,7 @@
 	<div class = "wrapx">
 		<div id="page_header">
 		<div class="logo">
-			<img src="/images/logo.png" width="280" height="97" />
+			<img src="/images/first.png" class="logoImage"/>
 		</div>
 		<div id="search_box">
 			<form method="get" action="http://w3layouts.com/">
