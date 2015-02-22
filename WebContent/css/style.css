@@ -12,7 +12,7 @@ body {
 	padding: 0;
 	background-color: #ffffff;
 	color: #85859c;
-	font-family: Ubuntu, sans-serif;
+	font-family: Roboto;
 	font-size: 10px;
 	height: 100%;
 }
@@ -28,7 +28,6 @@ center {
 	margin: 0 auto;
 	background-color: white;
 	box-shadow: 0 0 30px #888;
-	width: 80%;
 	min-height: 100%;
 	zoom: 1;
 }
@@ -295,3 +294,48 @@ center {
 	background-image: url("/images/groceries.png");
 	top: 380px;
 }
+
+.page_footer {
+	font-size : 10px;
+	color:white;
+	background-color: #005d72;
+	color: #fff;
+	height: 300px;
+	overflow: hidden;
+	padding-bottom: 0px;
+}
+.footer_top {
+	font-size : 30px;
+	color: #fff;
+	height: 200px;
+	overflow: hidden;	
+}
+.footer_top ul {
+
+	text-decoration: none;
+	list-style-type: none;
+}
+.footer_top li {
+	padding-left:50;
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+}
+.footer_left{
+	width:25%;
+	float:left;
+	height:300px;
+	}
+.footer_top_li_first
+{padding-left:10 !important;
+}
+
+.footer_li_inner_first
+{font-size:17px !important;
+float:initial !important;
+padding-left:0 !important;}
+
+.footer_li_inner
+{font-size:17px !important;
+float:initial !important;
+padding-left:10 !important;}
