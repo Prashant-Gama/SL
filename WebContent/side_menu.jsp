@@ -114,8 +114,8 @@
 
 		$(".left_nav").mouseenter(function() {
 			$(".left_nav_data").hide();
-			$(this).find(".arrow_image").attr('src', '/images/arrow_dark.png');
-			$(this).find(".left_nav_data").slideDown("slow");
+			$(this).find(".arrow_image").attr('src', '/images/arrow_white.png');
+			$(this).find(".left_nav_data").stop().slideDown("slow");
 			$(this).css("background-color", "#002128");
 			$(this).find(".side_menu_anchors").css("color", "#ffffff");
 
