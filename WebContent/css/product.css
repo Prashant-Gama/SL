@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+.product_inner{
+	width:200px;
+	height:320px;
+	background-color: #ffffff;
+	overflow:hiiden;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	font-size:big;
+	font-size:14px;}
+	
+.product_name
+	{text-decoration: none;
+	color:black;
+	font-size:16px;}
+
+.wrap{
+	padding-top:100px;
+	overflow:hidden;
+}
