@@ -9,8 +9,8 @@ $(window).scroll(function(){
 {
 	  $('#big_header').hide();
 	  $('#small_header').show();
+	  $('#menu_bar').css("top", "62px");
 	  
-	  //alert("ohhh yeah");
 	  /*
     if($('#header_nav').data('size') == 'big')
     {
@@ -24,6 +24,7 @@ else
   {
 	  $('#small_header').hide();
 	  $('#big_header').show();
+	  $('#menu_bar').css("top", "100px");
 	  
 	/*
     if($('#header_nav').data('size') == 'small')
