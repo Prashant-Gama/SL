@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 .product_inner{
-	width:200px;
+	width:140px;
 	height:320px;
 	background-color: #ffffff;
 	overflow:hiiden;
@@ -9,7 +9,8 @@
 	text-decoration: none;
 	color:black;
 	font-size:big;
-	font-size:14px;}
+	font-size:14px;
+	}
 	
 .product_name
 	{text-decoration: none;
@@ -20,3 +21,23 @@
 	padding-top:100px;
 	overflow:hidden;
 }
+.button {
+ 
+  background: linear-gradient(to bottom, #6ec9b7, #005d72) repeat scroll 0 0 #005d72;
+    border: 1px solid #005d72;
+    border-radius: 1px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  width:120px;
+
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #6ec9b7;
+  text-decoration: none;
+  cursor : pointer;
+}
+.button_div
+{padding-top: 3px;}

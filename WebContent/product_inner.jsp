@@ -12,10 +12,13 @@
 	<div class = "wrap">
 	<div class = "product_inner">
 			<a href = "#">
-				<img src = "/images/product/1.jpg" width="200" height="265"/> 
+				<img src = "/images/product/1.jpg" width="140" height="187"/> 
 			</a>
 		<a class = "product_name" href = "#"> iphone-6 (white) </a>
 		<p> Price :<strike> Rs 65,000</strike> Rs 60,000 </p>
+		<div > <input class="button" type="button" value="Add to Cart "> </div>
+		<div class ="button_div">	<input class="button" type="button" value="View Details"> </div>
+		  
 	</div>
 	</div>
 
