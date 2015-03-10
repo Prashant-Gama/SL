@@ -424,3 +424,45 @@ center {
 	float: initial !important;
 	padding-left: 10 !important;
 }
+
+
+.cart_wrap{
+	width:100%;
+	background-color :#ffffff;
+	padding-top:100px;
+	font-family: Roboto;
+	text-align: center;
+	text-shadow: aqua;
+	font-style: italic;
+	height:100%;
+	overflow:visible;}
+
+
+
+.cart
+	{width:100%;}
+	
+.cart_wrap h2{
+	font-family: Roboto;
+	font-size: 30px;
+	color:red;}
+	
+.cart_wrap table th
+{font-family: Roboto;
+	font-size: 20px;
+	color:black;.
+	 border-collapse: collapse;
+	 border-bottom: 2px double #b80000;
+	}
+	
+	.cart_wrap table td
+{font-family: Roboto;
+	font-size: 12px;
+	vertical-align: middle;
+	color:black;
+	text-align: center;
+	 border-bottom: 1px solid #b80000;
+}
+	
+	
+	
