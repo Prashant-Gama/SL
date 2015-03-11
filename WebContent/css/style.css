@@ -456,13 +456,43 @@ center {
 	}
 	
 	.cart_wrap table td
-{font-family: Roboto;
+{	font-family: Roboto;
 	font-size: 12px;
 	vertical-align: middle;
-	color:black;
+	color:black; 
 	text-align: center;
 	 border-bottom: 1px solid #b80000;
 }
+
+.cart_buttons{
+	padding-left:15px;
+	padding-right:15px;
 	
+}
+.continue_shopping ,.Proceed_to_checkout{
+	background: linear-gradient(to bottom, #6ec9b7, #005d72) repeat scroll 0 0 #005d72;
+	border: 1px solid #005d72;
+	border-radius: 1px;
+	font-family: Roboto;
+	color: #ffffff;
+	font-size: 18px;
+	height:35px;
+	width:250px;
+	border-radius: 16px;
+	text-decoration: none;
 	
-	
+}
+
+.continue_shopping:hover, .Proceed_to_checkout:hover  {
+	background: #6ec9b7;
+	text-decoration: none;
+	cursor : pointer;
+}
+.continue_shopping {
+float :left;
+}
+.Proceed_to_checkout {
+float :right;
+
+}
+
