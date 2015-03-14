@@ -448,10 +448,28 @@ center {
 	cursor : pointer;
 }
 .continue_shopping {
-float :left;
+	float :left;
 }
 .Proceed_to_checkout {
-float :right;
-
+	float :right;
 }
 
+.email_wrap{
+	width:100%;
+	height:500px;
+	padding-top:100px;
+}
+
+.email_mid
+{	vertical-align:middle;
+	height:150px;
+	width:300px;
+	float:center;
+	padding-top:50px;
+	padding-left:200px;
+}
+.email_hidden
+{
+	height:150px;
+	width:150px;
+}

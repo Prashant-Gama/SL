@@ -28,6 +28,10 @@ function goHome(){
 
 	window.location.assign("http://local.shoplazy.in:8080");
 };
+function goToEmail(){
+
+	window.location.assign("http://local.shoplazy.in:8080/email.jsp");
+};
 
 </script>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -79,7 +83,7 @@ function goHome(){
 		
 	<div class = "cart_buttons"> 
 	<input class="continue_shopping" type="button" value=" &#60;&#60; Continue Shopping " onclick="goHome();"> 
-	<input class="Proceed_to_checkout" type="button" value=" Proceed to Checkout &#62;&#62; "> 
+	<input class="Proceed_to_checkout" type="button" value=" Proceed to Checkout &#62;&#62; " onclick="goToEmail();"> 
 	</div>
 </div>
 </body>
