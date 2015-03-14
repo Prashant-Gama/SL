@@ -1,7 +1,10 @@
 @CHARSET "ISO-8859-1";
 
 /* home.css */
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
 div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
 	{
 	border: 0 none;
@@ -375,55 +378,6 @@ center {
 	top: 380px;
 }
 
-.pageFooter {
-	font-size: 10px;
-	color: white;
-	background-color: #005d72;
-	color: #fff;
-	height: 300px;
-	float:left;
-	width:100%
-}
-
-.footer_top {
-	font-size: 30px;
-	color: #fff;
-	height: 200px;
-}
-
-.footer_top ul {
-	text-decoration: none;
-	list-style-type: none;
-}
-
-.footer_top li {
-	padding-left: 50;
-	list-style-type: none;
-	text-decoration: none;
-	float: left;
-}
-
-.footer_left {
-	width: 25%;
-	float: left;
-	height: 300px;
-}
-
-.footer_top_li_first {
-	padding-left: 10 !important;
-}
-
-.footer_li_inner_first {
-	font-size: 17px !important;
-	float: initial !important;
-	padding-left: 0 !important;
-}
-
-.footer_li_inner {
-	font-size: 17px !important;
-	float: initial !important;
-	padding-left: 10 !important;
-}
 
 
 .cart_wrap{
