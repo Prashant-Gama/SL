@@ -1,8 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 .sliderBox {
 	border: 1px solid #d4d4d4;
 	float: right;
 	margin: 6px 3px 0 0;
 	padding: 14px 10px 30px;
+	z-index: -1;
 }
 
 #imageslider {

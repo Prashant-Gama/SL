@@ -104,10 +104,12 @@ center {
 
 #big_header {
 	height: 100px;
+	z-index: 1;
 }
 
 #small_header {
 	height: 64px;
+	z-index: 1;
 }
 
 #big_headerlinks {
@@ -117,6 +119,7 @@ center {
 	text-align: left;
 	height: 60px;
 	word-spacing: -1px;
+	z-index: 1;
 }
 
 #small_headerlinks {
@@ -191,6 +194,7 @@ center {
 	top: 100px;
 	width: inherit;
 	color: #000000;
+	z-index: 1;
 }
 
 #menu_bar ul {
@@ -338,9 +342,10 @@ center {
 	color: #424240;
 	display: none;
 	position: absolute;
-	left: 325px;
+	left: 335px;
 	width: 600px;
 	height: 300px;
+	z-index: 2;
 }
 
 #first_element_nav {
