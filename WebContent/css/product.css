@@ -40,3 +40,53 @@
 }
 .button_div
 {padding-top: 3px;}
+
+.product-image-container {
+    display: inline;
+    float: left;
+    margin-left: 65px;
+    padding-top: 17px;
+    position: relative;
+    width: 420px;
+}
+.product-top {
+	display:inline;
+}
+
+.product-details-container {
+    background: none repeat scroll 0 0 #f6f3e6;
+    border: 1px solid #e3e0d5;
+    padding: 10px 0 10px 10px;
+    position: relative;
+	min-height: 200px;
+    width: 348px;
+}
+
+.pdpDetailsDiv {
+	float : left;
+	margin-top: 100px;
+}
+
+.product-details-variant1, .product-details-variant2 , .product-quantity ,.product-add-to-cart{
+	padding: 10px 0 10px 10px;
+	float : left;
+	width: 100%;
+	margin-left:40px;
+}
+
+.variant-dropdown{
+	min-width: 125px;
+}
+.pdpDiv{
+    border: 1px solid #d4d4d4;
+    margin: 15px;
+    padding: 14px 10px 375px;
+}
+.product-name,.product-price {
+   font-size: 16px;
+    font-weight: bold ;
+     color: #005d72;
+}
+.product-price {
+	float: right;
+}
